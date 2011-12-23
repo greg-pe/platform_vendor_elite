@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+mount -o ro,remount -t yaffs2 /dev/block/mtdblock4 /system > /dev/nul 2>&1
+sync
+echo system mounted as ro

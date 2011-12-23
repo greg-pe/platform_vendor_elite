@@ -1,0 +1,14 @@
+#!/system/bin/sh
+
+# Homescreen redraw fix
+# Project Elite
+
+# Wait for data partition to mount
+
+sleep 65s
+
+
+# Fix for homescreen redraws
+# Locks homescreen in memory
+
+echo ro.HOME_APP_ADJ=1 >> /data/local.prop

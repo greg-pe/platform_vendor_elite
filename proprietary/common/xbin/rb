@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+echo See you soon!
+sleep 1
+reboot
