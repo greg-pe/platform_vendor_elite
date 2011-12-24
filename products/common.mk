@@ -86,13 +86,14 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/xbin/bash:system/xbin/bash \
     vendor/elite/proprietary/common/xbin/zipalign:system/xbin/zipalign \
     vendor/elite/proprietary/common/bin/flash_image:system/bin/flash_image \
+    vendor/elite/proprietary/common/xbin/sqlite3:system/xbin/sqlite3 \
     vendor/elite/proprietary/common/xbin/su:system/xbin/su
     
 # Common startup scripts
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/elite/proprietary/common/etc/init.d/03homelock:system/etc/init.d/03homelock
-    
+    vendor/elite/proprietary/common/etc/init.d/03homelock:system/etc/init.d/03homelock \
+    vendor/elite/proprietary/common/etc/init.d/99complete:system/etc/init.d/99complete
 # Common scripts
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/xbin/cpuinfo:system/xbin/cpuinfo \
