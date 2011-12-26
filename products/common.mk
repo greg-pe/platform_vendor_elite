@@ -30,8 +30,13 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhaseBeam \
-    DSPManager
+    PhaseBeam 
+
+# Custom packages
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    Trebuchet 
 
 # Google Apps
 PRODUCT_COPY_FILES += \
