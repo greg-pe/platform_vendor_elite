@@ -99,11 +99,13 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
     vendor/elite/proprietary/common/etc/init.d/03homelock:system/etc/init.d/03homelock \
     vendor/elite/proprietary/common/etc/init.d/99complete:system/etc/init.d/99complete
+
 # Common scripts
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/xbin/cpuinfo:system/xbin/cpuinfo \
     vendor/elite/proprietary/common/xbin/rb:system/xbin/rb \
     vendor/elite/proprietary/common/xbin/rr:system/xbin/rr \
+    vendor/elite/proprietary/common/bin/shutdown:system/bin/shutdown \
     vendor/elite/proprietary/common/xbin/sysro:system/xbin/sysro \
     vendor/elite/proprietary/common/xbin/sysrw:system/xbin/sysrw \
     vendor/elite/proprietary/common/xbin/zipalign_all:system/xbin/zipalign_all \
