@@ -95,8 +95,7 @@ PRODUCT_COPY_FILES += \
     
 # Common startup scripts
 PRODUCT_COPY_FILES += \
-    vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/elite/proprietary/common/etc/init.d/03homelock:system/etc/init.d/03homelock 
+    vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl 
 
 # Common scripts
 PRODUCT_COPY_FILES += \
