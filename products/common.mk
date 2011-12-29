@@ -51,12 +51,14 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
     vendor/elite/proprietary/common/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
     vendor/elite/proprietary/common/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
+    vendor/elite/proprietary/common/app/GoogleQuickSearchBox.apk:system/app/GoogleQuickSearchBox.apk \
     vendor/elite/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/elite/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/elite/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/elite/proprietary/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/elite/proprietary/common/app/MarketUpdater.apk:system/app/MarketUpdater.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
+    vendor/elite/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/elite/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/elite/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
