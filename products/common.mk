@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/elite/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/elite/proprietary/common/app/PlusOne.apk:system/app/PlusOne.apk \
-    vendor/elite/proprietary/common/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/elite/proprietary/common/app/Videos.apk:system/app/Videos.apk \
