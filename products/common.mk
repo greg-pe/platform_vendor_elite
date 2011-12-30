@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
-    Trebuchet 
+    Trebuchet \
+    CpuTools
 
 # Google Apps
 PRODUCT_COPY_FILES += \
