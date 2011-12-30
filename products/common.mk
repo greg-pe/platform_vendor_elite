@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/elite/proprietary/common/app/Videos.apk:system/app/Videos.apk \
+    vendor/elite/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
+    vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/elite/proprietary/common/etc/contributors.css:system/etc/contributors.css \
     vendor/elite/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
