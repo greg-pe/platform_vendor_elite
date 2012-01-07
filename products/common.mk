@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/elite/proprietary/common/etc/contributors.css:system/etc/contributors.css \
-    vendor/elite/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/elite/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
@@ -83,6 +82,10 @@ PRODUCT_COPY_FILES += \
      vendor/elite/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
     vendor/elite/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
     vendor/elite/proprietary/common/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so 
+
+# Common Applications
+PRODUCT_COPY_FILES += \
+    vendor/elite/proprietary/common/app/Superuser.apk:system/app/Superuser.apk 
 
 # Common Library files
 PRODUCT_COPY_FILES += \
@@ -100,9 +103,11 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/bin/flash_image:system/bin/flash_image \
     vendor/elite/proprietary/common/xbin/su:system/xbin/su
     
-# Common startup scripts
+# Common files for init.d support and etc files
 PRODUCT_COPY_FILES += \
-    vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl 
+    vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+    vendor/elite/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
+    vendor/elite/proprietary/common/etc/sysctl.conf:system/etc/sysctl.conf 
 
 # Common scripts
 PRODUCT_COPY_FILES += \

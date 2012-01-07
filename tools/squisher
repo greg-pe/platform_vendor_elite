@@ -56,7 +56,7 @@ find ./ -name \*.apk | $XARGS $OPTICHARGER
 )
 
 # Relocate su
-mv $REPACK/ota/system/xbin/su $REPACK/ota/system/bin/su
+mv $REPACK/ota/system/xbin/su $REPACK/ota/system/xbin/su
 
 # Delete unnecessary binaries
 ( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
