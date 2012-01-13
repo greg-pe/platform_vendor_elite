@@ -89,6 +89,8 @@ PRODUCT_COPY_FILES += \
 
 # Common Library files
 PRODUCT_COPY_FILES += \
+    vendor/elite/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+    vendor/elite/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/elite/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/elite/proprietary/common/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
     vendor/elite/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
