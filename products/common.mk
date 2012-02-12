@@ -17,8 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.mode=OPTIONAL \
     ro.setupwizard.enterprise_mode=1 \
-    windowsmgr.max_events_per_sec=240 \
-    wifi.supplicant_scan_interval=90
+    windowsmgr.max_events_per_sec=240
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -38,8 +37,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
-    Trebuchet \
-    CpuTools
+    Trebuchet
 
 # Google Apps
 PRODUCT_COPY_FILES += \
