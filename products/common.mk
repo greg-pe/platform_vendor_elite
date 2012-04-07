@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhaseBeam 
+    PhaseBeam \
+    SpareParts
 
 # Custom packages
 PRODUCT_PACKAGES += \
