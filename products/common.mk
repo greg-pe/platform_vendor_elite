@@ -108,6 +108,13 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/elite/proprietary/common/etc/sysctl.conf:system/etc/sysctl.conf 
 
+# Common Media effects & videos
+$(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
+PRODUCT_COPY_FILES +=  \
+    vendor/elite/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/elite/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
+
 # Common scripts
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/xbin/cpuinfo:system/xbin/cpuinfo \
