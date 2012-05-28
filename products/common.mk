@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     VisualizationWallpapers \
     PhaseBeam \
-    SpareParts
+    SpareParts \
+    Apollo
 
 # Custom packages
 PRODUCT_PACKAGES += \
