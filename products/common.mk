@@ -74,11 +74,9 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/elite/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
-    vendor/elite/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/elite/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/elite/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
      vendor/elite/proprietary/common/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-    vendor/elite/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
     vendor/elite/proprietary/common/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so 
 
 # Common Applications
