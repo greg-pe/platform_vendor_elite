@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk
 
+# Inherit media effect blobs
+-include vendor/elite/products/common_media_effects.mk
+
 # Inherit Face lock security blobs
 -include vendor/elite/products/common_facelock.mk
 
@@ -31,4 +34,3 @@ PRODUCT_COPY_FILES +=  \
 
 # Inherit speech recognition blobs
 -include vendor/elite/products/common_speech_recognition.mk
-
