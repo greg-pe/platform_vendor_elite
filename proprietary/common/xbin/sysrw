@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+mount -o rw,remount -t yaffs2 /dev/block/mtdblock4 /system > /dev/nul 2>&1
+
+echo system mounted as rw
