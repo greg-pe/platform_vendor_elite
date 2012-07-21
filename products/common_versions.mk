@@ -7,6 +7,6 @@ PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.romversion=ProjectElite-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-NIGHTLY-$(shell date +"%m-%d-%y")
+ro.modversion=ProjectElite-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-NIGHTLY-$(shell date +"%m-%d-%y")
     
 
