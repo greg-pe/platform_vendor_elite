@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/elite/products/common.mk)
+$(call inherit-product, vendor/elite/config/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := elite_maguro
@@ -14,7 +14,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_ID=JRO03C BUILD_FINGERPRINT=google/takju/maguro:4.1.1/JRO03C/398337:user/release-keys PRIVATE_BUILD_DESC="takju-user 4.1.1 JRO03C 398337 release-keys" BUILD_NUMBER=235179
 
 # Inherit common build.prop overrides
--include vendor/elite/products/common_versions.mk
+-include vendor/elite/config/common_versions.mk
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
@@ -31,10 +31,10 @@ PRODUCT_COPY_FILES +=  \
 
 
 # Inherit Face lock security blobs
--include vendor/elite/products/common_facelock.mk
+-include vendor/elite/config/common_facelock.mk
 
 # Inherit drm blobs
--include vendor/elite/products/common_drm_phone.mk
+-include vendor/elite/config/common_drm_phone.mk
 
 # Inherit speech recognition blobs
--include vendor/elite/products/common_speech_recognition.mk
+-include vendor/elite/config/common_speech_recognition.mk

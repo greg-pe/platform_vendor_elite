@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/elite/products/common.mk)
+$(call inherit-product, vendor/elite/config/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := elite_toro
@@ -14,7 +14,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" BUILD_NUMBER=336647
 
 # Inherit common build.prop overrides
--include vendor/elite/products/common_versions.mk
+-include vendor/elite/config/common_versions.mk
 
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
@@ -24,13 +24,13 @@ PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk
 
 # Inherit media effect blobs
--include vendor/elite/products/common_media_effects.mk
+-include vendor/elite/config/common_media_effects.mk
 
 # Inherit Face lock security blobs
--include vendor/elite/products/common_facelock.mk
+-include vendor/elite/config/common_facelock.mk
 
 # Inherit drm blobs
--include vendor/elite/products/common_drm_phone.mk
+-include vendor/elite/config/common_drm_phone.mk
 
 # Inherit speech recognition blobs
--include vendor/elite/products/common_speech_recognition.mk
+-include vendor/elite/config/common_speech_recognition.mk
