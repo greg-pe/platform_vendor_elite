@@ -14,6 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.setupwizard.enterprise_mode=1
 
+# Common packages 
+PRODUCT_PACKAGES += \
+    SpareParts 
+    
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
