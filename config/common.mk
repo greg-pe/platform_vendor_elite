@@ -14,6 +14,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.setupwizard.enterprise_mode=1
 
+# T-mobile heme engine 
+include vendor/elite/config/themes_common.mk
+
 # Common packages 
 PRODUCT_PACKAGES += \
     SpareParts 
