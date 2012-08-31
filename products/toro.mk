@@ -23,6 +23,11 @@ PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk
 
+# Copy vzw login 
+PRODUCT_COPY_FILES +=  \
+    vendor/elite/proprietary/common/app/VerizonLogin.apk:system/app/VerizonLogin.apk \
+    vendor/elite/proprietary/common/lib/libmotricity.so:system/lib/libmotricity.so 
+
 # Inherit media effect blobs
 -include vendor/elite/config/common_media_effects.mk
 
