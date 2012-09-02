@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/elite/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/elite/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
-    vendor/elite/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
+    vendor/elite/proprietary/common/app/LatinimeDictionaryPack.apk:system/app/LatinimeDictionaryPack.apk \
     vendor/elite/proprietary/common/app/Maps.apk:system/app/Maps.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/elite/proprietary/common/app/Music.apk:system/app/Music.apk \
@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/elite/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
+    vendor/elite/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/elite/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/elite/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
@@ -56,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/elite/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/elite/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+    vendor/elite/proprietary/common/lib/libgcomm_jni.so.so:system/lib/libgcomm_jni.so.so \
     vendor/elite/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/elite/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/elite/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
