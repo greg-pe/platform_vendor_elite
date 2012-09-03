@@ -19,6 +19,7 @@ include vendor/elite/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
+    Trebuchet \
     SpareParts 
     
 # Common Google Applications and libs
