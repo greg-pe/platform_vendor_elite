@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/elite/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/elite/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
-    vendor/elite/proprietary/common/lib/libgcomm_jni.so.so:system/lib/libgcomm_jni.so.so \
+    vendor/elite/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/elite/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/elite/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/elite/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
