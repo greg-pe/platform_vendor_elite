@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/maguro/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/elite/proprietary/maguro/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 
+# Inherit media effect blobs
+-include vendor/elite/config/common_media_effects.mk
 
 # Inherit Face lock security blobs
 -include vendor/elite/config/common_facelock.mk

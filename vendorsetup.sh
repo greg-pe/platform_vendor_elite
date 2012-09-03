@@ -1,3 +1,4 @@
 add_lunch_combo elite_toro-user
 add_lunch_combo elite_toro-userdebug
-
+add_lunch_combo elite_maguro-user
+add_lunch_combo elite_maguro-userdebug
