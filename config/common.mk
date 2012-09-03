@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
+    vendor/elite/proprietary/common/app/talkback.apk:system/app/talkback.apk \
     vendor/elite/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/elite/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
