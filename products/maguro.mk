@@ -18,16 +18,8 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_ID=JRO03C BUILD_FINGERP
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/elite/proprietary/maguro/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
-    vendor/elite/proprietary/maguro/media/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/elite/proprietary/maguro/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/elite/proprietary/maguro/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
-    vendor/elite/proprietary/maguro/vendor/etc/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini \
-    vendor/elite/proprietary/maguro/vendor/firmware/smc_pa_wvdrm.ift:system/vendor/firmware/smc_pa_wvdrm.ift \
-    vendor/elite/proprietary/maguro/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/elite/proprietary/maguro/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/elite/proprietary/maguro/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/elite/proprietary/maguro/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/elite/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/elite/proprietary/maguro/vendor/etc/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini 
 
 # Inherit media effect blobs
 -include vendor/elite/config/common_media_effects.mk
