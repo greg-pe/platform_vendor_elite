@@ -35,3 +35,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Inherit speech recognition blobs
 -include vendor/elite/config/common_speech_recognition.mk
+
+# Include gsm apn list
+-include vendor/elite/config/gsm.mk
+
