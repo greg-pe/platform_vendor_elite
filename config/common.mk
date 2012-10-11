@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/elite/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/elite/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-    vendor/elite/proprietary/common/app/Maps.apk:system/app/Maps.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/elite/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \

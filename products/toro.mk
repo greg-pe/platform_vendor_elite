@@ -18,7 +18,6 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysi
 
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/elite/proprietary/tuna/app/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/elite/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/elite/proprietary/tuna/media/audio/notifications/Nexus.mp3:system/media/audio/notifications/Nexus.mp3 \
     vendor/elite/proprietary/common/app/Wallet.apk:system/app/Wallet.apk
