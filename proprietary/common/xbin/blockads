@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock4 /system
+mv /system/xbin/hostsblock /system/etc/hosts
+cp /system/etc/hosts /system/xbin
+mv /system/xbin/hosts /system/xbin/hostsblock
+mount -o remount,ro -t yaffs2 /dev/block/mtdblock4 /system
+echo Ads Blocked

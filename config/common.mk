@@ -90,9 +90,13 @@ PRODUCT_COPY_FILES += \
 
 # Common scripts
 PRODUCT_COPY_FILES += \
+    vendor/elite/proprietary/common/xbin/blockads:system/xbin/blockads \
+    vendor/elite/proprietary/common/xbin/hostsblock:system/xbin/hostsblock \
+    vendor/elite/proprietary/common/xbin/hostsshow:system/xbin/hostsshow \
     vendor/elite/proprietary/common/xbin/cpuinfo:system/xbin/cpuinfo \
     vendor/elite/proprietary/common/xbin/rb:system/xbin/rb \
     vendor/elite/proprietary/common/xbin/rr:system/xbin/rr \
+    vendor/elite/proprietary/common/xbin/showads:system/xbin/showads \
     vendor/elite/proprietary/common/bin/shutdown:system/bin/shutdown \
     vendor/elite/proprietary/common/xbin/sysro:system/xbin/sysro \
     vendor/elite/proprietary/common/xbin/sysrw:system/xbin/sysrw \
