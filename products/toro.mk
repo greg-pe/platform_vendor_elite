@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES +=  \
 # Copy vzw login 
 PRODUCT_COPY_FILES +=  \
     vendor/elite/proprietary/toro/app/VerizonLogin.apk:system/app/VerizonLogin.apk \
-    vendor/elite/proprietary/toro/lib/libmotricity.so:system/lib/libmotricity.so 
+    vendor/elite/proprietary/toro/lib/libmotricity.so:system/lib/libmotricity.so \
+    vendor/elite/proprietary/toro/app/VerizonLogin.apk:system/app/VerizonSSO.apk \
 
 # Inherit media effect blobs
 -include vendor/elite/config/common_media_effects.mk
