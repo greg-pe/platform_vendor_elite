@@ -19,6 +19,7 @@ include vendor/elite/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
+    CMFileManager \
     Trebuchet \
     SpareParts 
     
