@@ -14,6 +14,16 @@
      limitations under the License.
 -->
 
+<!--
+    These are the default set of preferred applications for various standard
+    web URIs of Google properties to built-in Google Android applications.
+
+    To generate new entries, set whatever app you want to be the default as
+    normal through the UI, and then use "adb shell dumpsys package preferred-xml"
+    to get the XML structure for the current preferred apps.  You will probably
+    want to clean up the output some, such as adding the BROWSABLE category.  See
+    the other entries here for guides.
+ -->
 <preferred-activities>
     <item name="com.android.vending/com.google.android.finsky.activities.MainActivity"
             match="500000" set="2">
@@ -110,6 +120,62 @@
             <scheme name="http" />
             <auth host="www.youtube.com" />
             <path prefix="/watch" />
+        </filter>
+    </item>
+
+    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity"
+            match="500000" set="2">
+        <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+        <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="http" />
+            <auth host="plus.google.com" />
+            <path prefix="/u/" />
+        </filter>
+    </item>
+
+    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity"
+            match="500000" set="2">
+        <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+        <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="http" />
+            <auth host="plus.google.com" />
+            <path literal="/" />
+        </filter>
+    </item>
+
+    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity"
+            match="500000" set="2">
+        <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+        <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="https" />
+            <auth host="plus.google.com" />
+            <path prefix="/u/" />
+        </filter>
+    </item>
+
+    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity"
+            match="500000" set="2">
+        <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+        <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="https" />
+            <auth host="plus.google.com" />
+            <path literal="/" />
         </filter>
     </item>
 

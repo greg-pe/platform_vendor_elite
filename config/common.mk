@@ -15,12 +15,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1
 
 # T-mobile heme engine 
-include vendor/elite/config/themes_common.mk
+#include vendor/elite/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
-    Trebuchet \
+   # Trebuchet \
     SpareParts 
     
 # Common Google Applications and libs
@@ -58,16 +58,17 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/elite/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/elite/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
-    vendor/elite/proprietary/common/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
+    vendor/elite/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
     vendor/elite/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
+    vendor/elite/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
+    vendor/elite/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
     vendor/elite/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/elite/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
+    vendor/elite/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
     vendor/elite/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
     vendor/elite/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/elite/proprietary/common/lib/libttscompat.so:system/lib/libttscompat.so \
     vendor/elite/proprietary/common/lib/libttspico.so:system/lib/libttspico.so \
-    vendor/elite/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/elite/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/elite/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/elite/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so 
 
