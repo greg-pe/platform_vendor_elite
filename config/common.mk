@@ -20,7 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
-   # Trebuchet \
+    Trebuchet \
     SpareParts 
     
 # Common Google Applications and libs
