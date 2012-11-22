@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ProjectElite overlay config file -->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources>
+
+    <!-- Enabled Google Network Location Services with fusedlocation -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+         <!--AOSP fused location provider -->
+         <item>com.android.location.fused</item>
+         <!-- The Google Network Location Services location provider -->
+         <item>com.google.android.location</item>
+    </string-array>
+</resources>
