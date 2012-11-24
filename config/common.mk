@@ -15,7 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1
 
 # T-mobile heme engine 
-#include vendor/elite/config/themes_common.mk
+include vendor/elite/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
