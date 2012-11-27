@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
 
 # Common Applications
 PRODUCT_COPY_FILES += \
-    vendor/elite/proprietary/common/app/Superuser.apk:system/app/Superuser.apk
+    vendor/elite/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/elite/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
