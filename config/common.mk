@@ -75,7 +75,12 @@ PRODUCT_COPY_FILES += \
 # Common Applications
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/elite/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk 
+    vendor/elite/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk
+
+# Common Keyboard w/ Gestures
+PRODUCT_COPY_FILES += \
+    vendor/elite/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
+    vendor/elite/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
