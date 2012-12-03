@@ -27,9 +27,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/elite/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
-    vendor/elite/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/elite/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/elite/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
+    vendor/elite/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/elite/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/elite/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/elite/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
@@ -44,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/elite/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/elite/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/elite/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
