@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
+    vendor/elite/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/elite/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/elite/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/elite/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
@@ -39,11 +40,12 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/elite/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/elite/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/elite/proprietary/common/app/Music.apk:system/app/Music.apk \
+    vendor/elite/proprietary/common/app/Music2.apk:system/app/Music2.apk \
     vendor/elite/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/elite/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/elite/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/elite/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/elite/proprietary/common/app/RingsExtended.apk:system/app/RingsExtended.apk \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
