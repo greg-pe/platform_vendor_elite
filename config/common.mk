@@ -27,9 +27,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/elite/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
+    vendor/elite/proprietary/common/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/elite/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/elite/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/elite/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/elite/proprietary/common/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/elite/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/elite/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
     vendor/elite/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
@@ -49,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/elite/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/elite/proprietary/common/app/Talk.apk:system/app/Talk.apk \
-    vendor/elite/proprietary/common/app/talkback.apk:system/app/talkback.apk \
+    vendor/elite/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/elite/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/elite/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     vendor/elite/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
@@ -75,7 +77,6 @@ PRODUCT_COPY_FILES += \
 # Common Applications
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/elite/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk
 
 # Common Keyboard w/ Gestures
 PRODUCT_COPY_FILES += \
