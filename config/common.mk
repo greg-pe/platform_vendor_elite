@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/elite/proprietary/common/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/elite/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/elite/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/elite/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
