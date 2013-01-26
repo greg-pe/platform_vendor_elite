@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
 # Common files for init.d support and etc files
 PRODUCT_COPY_FILES += \
     vendor/elite/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/elite/proprietary/common/etc/gps.conf:system/etc/gps.conf \
     vendor/elite/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/elite/proprietary/common/etc/sysctl.conf:system/etc/sysctl.conf 
 
