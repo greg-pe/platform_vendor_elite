@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
 
 # Common Keyboard w/ Gestures
 PRODUCT_COPY_FILES += \
-    vendor/elite/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
     vendor/elite/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
